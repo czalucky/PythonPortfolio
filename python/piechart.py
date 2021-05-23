@@ -23,7 +23,7 @@ ax.tick_params(axis='x', colors='white')
 ax.tick_params(axis='y', colors='white')
 ax.set_title('My Portfolio')
 patches, texts, autotexts = ax.pie(total, labels=tickers, autopct='%1.1f%%', pctdistance=0.8, colors = colors)
-[text.set_color('blue') for text in autotexts]
+[text.set_color('white') for text in autotexts]
 
 
 #side info
