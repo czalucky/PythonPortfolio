@@ -4,7 +4,7 @@ from pandas_datareader import data as web
 
 # x = [15, 25, 25, 30, 5]
 # labels = ['Very Likely', 'Likely', 'Unsure', 'Unlikely', 'Very Unlikely']
-colors = ['#005d61', 'tab:cyan', 'tab:blue', '#17174a', '#7e2455']
+colors = ['tab:blue', '#17174a', '#005d61','tab:cyan', '#7e2455']
 
 tickers = ['AAPL','FB','GOOG','F','TSLA']
 amounts = [12, 16, 12, 11, 7]
@@ -36,4 +36,4 @@ for ticker in tickers:
             horizontalalignment='center', verticalalignment='center')
     counter += 0.15
 
-plt.savefig("//Users/cristinazalucky/Documents/GitHub/PythonProject/PythonPortfolio/static/img/pieChart.png")
+plt.savefig("//Users/cristinazalucky/Documents/GitHub/PythonProject/static/img/pieChart.png")
