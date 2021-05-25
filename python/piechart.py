@@ -21,7 +21,7 @@ for ticker in tickers:
 fig, ax = plt.subplots(figsize=(15,8))
 ax.tick_params(axis='x', colors='white')
 ax.tick_params(axis='y', colors='white')
-ax.set_title('My Portfolio')
+ax.set_title('Tech Stock Distribution')
 patches, texts, autotexts = ax.pie(total, labels=tickers, autopct='%1.1f%%', pctdistance=0.8, colors = colors)
 [text.set_color('white') for text in autotexts]
 
