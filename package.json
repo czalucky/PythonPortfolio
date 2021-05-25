@@ -1,32 +1,53 @@
 {
-	"name": "TODO",
-	"version": "0.1.0",
-	"scripts": {
-		"dev": "svelte-kit dev",
-		"build": "svelte-kit build",
-		"start": "svelte-kit start"
-	},
-	"devDependencies": {
-		"@rollup/plugin-node-resolve": "^13.0.0",
-		"@sveltejs/adapter-node": "next",
-		"@sveltejs/kit": "next",
-		"autoprefixer": "^10.2.5",
-		"d3": "^5.16.0",
-		"postcss": "^8.2.8",
-		"rollup": "^2.49.0",
-		"rollup-plugin-svelte": "^7.1.0",
-		"svelte": "^3.38.2",
-		"svelte-preprocess": "^4.7.3",
-		"tailwindcss": "^2.0.4",
-		"vite": "^2.1.0"
-	},
-	"type": "module",
-	"engines": {
-		"node": ">= 12.17.0"
-	},
-	"dependencies": {
-		"fusioncharts": "^3.17.0",
-		"svelte-frappe-charts": "^1.8.2",
-		"svelte-fusioncharts": "^1.0.0"
-	}
+  "name": "pythonproject",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "start": "svelte-kit start"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@sveltejs/adapter-node": "next",
+    "@sveltejs/kit": "next",
+    "autoprefixer": "^10.2.5",
+    "carbon-components-svelte": "^0.33.0",
+    "d3": "^5.16.0",
+    "postcss": "^8.2.8",
+    "rollup": "^2.49.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "smui-theme": "^4.2.0",
+    "svelte": "^3.38.2",
+    "svelte-preprocess": "^4.7.3",
+    "tailwindcss": "^2.0.4",
+    "vite": "^2.1.0"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">= 12.17.0"
+  },
+  "dependencies": {
+    "@carbon/charts": "^0.41.65",
+    "@carbon/charts-svelte": "^0.41.65",
+    "@smui/button": "^4.2.0",
+    "@smui/card": "^4.2.0",
+    "carbon-components": "^10.35.0",
+    "framework7": "^6.0.17",
+    "framework7-svelte": "^6.0.17",
+    "fusioncharts": "^3.17.0",
+    "svelte-frappe-charts": "^1.8.2",
+    "svelte-fusioncharts": "^1.0.0"
+  },
+  "description": "This repo is a ready-made SvelteKit template with ~~batteries~~ Tailwind CSS included.",
+  "main": "svelte.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czalucky/PythonPortfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/czalucky/PythonPortfolio/issues"
+  },
+  "homepage": "https://github.com/czalucky/PythonPortfolio#readme"
 }
